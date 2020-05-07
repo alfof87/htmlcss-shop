@@ -2,12 +2,13 @@
 *{
   background-color: #B0C4DE;
 }
-
+/*foto*/
 td{
   position: relative;
 
 }
 
+/*-30%*/
 .verde{
   font-size: 25px;
   width: 45px;
@@ -19,6 +20,7 @@ td{
   top: 0px;
 }
 
+/*-5%*/
 .rosso{
   font-size: 25px;
   width: 45px;
@@ -30,6 +32,10 @@ td{
   top: 0px;
 }
 
-td:hover section{
-  display: block;
+/*cuore*/
+section{
+  position: absolute;
+  left: 350px;
+  top: 670px;
+  background-color: white;
 }
